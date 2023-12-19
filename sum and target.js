@@ -2,10 +2,10 @@ let nums = [2, 3, 4, 5, 6, 7];
 const targetVal = 6;
 
 (function checkSum() {
-  let index1 = Math.floor(Math.random() * (testArr.length - 1));
-  let index2 = Math.floor(Math.random() * (testArr.length - 1));
-  let a = testArr[index1];
-  let b = testArr[index2];
+  let index1 = Math.floor(Math.random() * (nums.length - 1));
+  let index2 = Math.floor(Math.random() * (nums.length - 1));
+  let a = nums[index1];
+  let b = nums[index2];
   // return a+b;
   if (index1 == index2) {
     checkSum();
